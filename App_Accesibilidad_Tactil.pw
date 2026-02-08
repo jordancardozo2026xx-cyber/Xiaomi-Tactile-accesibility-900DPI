@@ -1,0 +1,29 @@
+[APP_CONFIGURACION]
+NOMBRE_APP = Accesibilidad Tactil Xiaomi 900DPI
+VERSION = 2.0
+EJECUCION_DIRECTA = ON
+EJECUCION_EN_PRIMER_PLANO = ON
+
+[MODO_FUNCIONAMIENTO]
+ACTIVAR_AUTO_INICIO = ON
+DPI_BASE = 900
+
+[INTERFAZ_APP]
+UBICACION_BOTONES = Zona_Superior_Derecha
+TAMAÑO_INTERFAZ = Grande
+COLORES = Tema_Oscuro
+
+[BOTONES_APP_DIRECTOS]
+BOTON_ACTIVAR_900DPI = Coordenadas_X=700, Y=150 → Texto("ACTIVAR") → Accion: Aplicar_Todos_Ajustes()
+BOTON_FREE_FIRE = Coordenadas_X=700, Y=250 → Texto("FREE FIRE") → Accion: Aplicar_Modo_FreeFire()
+BOTON_NORMAL = Coordenadas_X=700, Y=350 → Texto("NORMAL") → Accion: Aplicar_Modo_Normal()
+BOTON_JUEGOS = Coordenadas_X=700, Y=450 → Texto("JUEGOS") → Accion: Aplicar_Modo_Juegos()
+BOTON_RESTAURAR = Coordenadas_X=700, Y=550 → Texto("RESTABLECER") → Accion: Restablecer_Valores()
+BOTON_CERRAR = Coordenadas_X=700, Y=650 → Texto("CERRAR") → Accion: Cerrar_App_Completamente()
+
+[AJUSTES_DIRECTOS]
+DPI = 900
+MODO_NORMAL = 120FPS / 240Hz | X=85 | Y=120
+MODO_JUEGOS = 120FPS / 240Hz | X=95 | Y=75
+MODO_FREEFIRE = 120FPS / 240Hz | X=105 | Y=65
+VALORES_ORIGINALES = 60FPS / 120Hz | X=85 | Y=85 | DPI=395

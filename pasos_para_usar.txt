@@ -1,0 +1,19 @@
+=============================================
+    CONFIGURACION PERSONAL 900DPI
+=============================================
+
+PASOS PARA USAR EN QUICKEDIT:
+1. Abre App_Accesibilidad_Tactil.pw
+2. Toca el boton "Ejecutar" en la parte superior
+3. Usa los botones que aparecen en pantalla
+
+COMANDOS RAPIDOS PARA PEGAR EN CONSOLA:
+- Para activar 900DPI: shell(wm density 900)
+- Para Free Fire: aplicar_modo("FREE FIRE")
+- Para restablecer: shell(wm density reset)
+
+AJUSTES:
+- DPI: 900
+- FREE FIRE: X=105 | Y=65
+- NORMAL: X=85 | Y=120
+- JUEGOS: X=95 | Y=75
